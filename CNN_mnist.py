@@ -5,6 +5,7 @@ from tensorflow.keras import models
 import argparse
 
 
+
 class myCallback(tf.keras.callbacks.Callback):
   def on_epoch_end(self, epoch, logs={}):
     '''
